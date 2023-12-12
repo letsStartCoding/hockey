@@ -18,6 +18,10 @@ make bash
 ```bash
 root@1312abe3bf8d:/var/www# vendor/bin/phpunit 
 ```
+или
+```bash
+root@1312abe3bf8d:/var/www# vendor/bin/phpunit --testdox
+```
 
 5) Добиться того, чтоб все тесты проходили (сами тесты изменять нельзя)
 
