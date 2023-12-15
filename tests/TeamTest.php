@@ -41,9 +41,10 @@ final class TeamTest extends TestCase
         ];
         $team = new Team('СССР', $players);
 
-        // arrange
+        // act
         $player = $team->getPlayerByNumber(7);
 
+        // assert
         assertSame($player, $players[2]);
     }
 
